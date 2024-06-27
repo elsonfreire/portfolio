@@ -46,12 +46,15 @@ header {
     gap: 10px;
 }
 
+#header-contacts-social {
+    display: flex;
+    align-items: center;
+}
+
 .header-contact-link {
     text-decoration: none;
     text-align: center;
     align-content: center;
-    justify-content: center;
-    display: flex;
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -112,6 +115,7 @@ body {
     
     #header-contacts {
         float: none;
+        display: block;
     }
 
     header {
