@@ -49,9 +49,10 @@ header {
 #header-contacts-social {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
-.header-contact-link {
+.header-contacts-link {
     text-decoration: none;
     text-align: center;
     align-content: center;
@@ -111,7 +112,7 @@ body {
 
 /* Tecnologies */
 
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
     
     #header-contacts {
         float: none;
