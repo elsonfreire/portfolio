@@ -11,7 +11,8 @@ header {
     top: 0;
     position: sticky;
     padding: 40px 60px;
-    background-color: #253346;
+    background: rgb(37,51,70);
+    background: radial-gradient(circle, rgba(37,51,70,1) 0%, rgba(20,29,48,1) 100%);
     color: rgb(243, 248, 255);
 }
 
